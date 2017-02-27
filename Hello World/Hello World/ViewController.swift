@@ -23,20 +23,14 @@ class ViewController: UIViewController {
         welcomeButton.isHidden = false
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
-    @IBAction func welcomeBtnWasPressed(_ sender: Any) {
+    @IBAction func welcomeBtnWasPressed(_ sender: UIButton) {
         bgImageView.isHidden = false
         logoImageView.isHidden = false
         welcomeButton.isHidden = true
         goodbyeButton.isHidden = false
     }
     
-    @IBAction func goodbyeButtonWasPressed(_ sender: Any) {
+    @IBAction func goodbyeButtonWasPressed(_ sender: UIButton) {
         bgImageView.isHidden = true
         logoImageView.isHidden = true
         welcomeButton.isHidden = false
