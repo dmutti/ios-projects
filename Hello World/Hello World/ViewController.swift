@@ -37,5 +37,10 @@ class ViewController: UIViewController {
         goodbyeButton.isHidden = true
     }
     
+    @IBAction func anyButtonPressed(_ sender: UIButton) {
+        let title = sender.title(for: UIControlState.selected)!
+        print("\(title) button pressed")
+    }
+    
 }
 

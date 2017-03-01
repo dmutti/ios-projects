@@ -34,6 +34,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Welcome!"/>
                                 <connections>
+                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qYd-Op-n37"/>
                                     <action selector="welcomeBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lOM-DU-y92"/>
                                 </connections>
                             </button>
@@ -42,6 +43,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Goodbye!"/>
                                 <connections>
+                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IQ5-Vc-icq"/>
                                     <action selector="goodbyeButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l7I-jG-inh"/>
                                 </connections>
                             </button>
